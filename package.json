@@ -1,0 +1,27 @@
+{
+  "name": "speech-vision-accessibility-tool",
+  "version": "1.0.0",
+  "description": "A comprehensive web application for speech-to-text, text-to-speech, and OCR functionality with accessibility features",
+  "main": "index.html",
+  "scripts": {
+    "dev": "php -S localhost:8000",
+    "build": "echo 'Build complete'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "accessibility",
+    "speech-to-text",
+    "text-to-speech",
+    "ocr",
+    "multilingual",
+    "web-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "tesseract.js": "^2.1.0"
+  }
+}
